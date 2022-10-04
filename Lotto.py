@@ -58,7 +58,7 @@ class LottoGame(Player):
     @staticmethod
     def barrel_choice():
         # Функция-имитация случайного выбора бочонка
-        bag = list(range(91))
+        bag = list(range(1, 91))
         random.shuffle(bag)
         for barrel in bag:
             yield barrel
