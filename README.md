@@ -11,6 +11,7 @@ The OOP task.
 <p>Побеждает тот, кто первый закроет все числа в своей карточке.</p>
 <p><b>Пример:</b></p>
 <img src='loto.jpg' alt='lotto'>
+<p>Запуск игры через bat-файл "lotto_run.bat". 
 <h3>Rules of the lotto game.</h3> 
 <p>The game is played with the help of special cards and barrels with numbers.</p> 
 <p>The number of barrels is 90 pieces. Each card contains 3 rows of 10 cells. All the numbers in the card are unique.</p> 
