@@ -2,6 +2,9 @@ import random
 
 
 class LotoCard:
+    """
+    Класс для генерации чисел лото-карточки
+    """
     def __init__(self):
         self.card_lst = []
         self.card_player = str
@@ -17,6 +20,9 @@ class LotoCard:
 
 
 class Computer(LotoCard):
+    """
+    Создание индивидуальной карточки компьютера
+    """
     def __init__(self):
         super().__init__()
         LotoCard.create_card(self)
@@ -34,6 +40,9 @@ class Computer(LotoCard):
 
 
 class Player(Computer):
+    """
+        Создание индивидуальной карточки игрока
+    """
     def __init__(self):
         super().__init__()
         LotoCard.create_card(self)
@@ -54,7 +63,7 @@ class Player(Computer):
 
 
 class LottoGame(Player):
-
+    """Игра"""
     @staticmethod
     def barrel_choice():
         # Функция-имитация случайного выбора бочонка
